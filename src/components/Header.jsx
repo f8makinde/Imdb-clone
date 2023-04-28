@@ -7,7 +7,7 @@ import DarkMode from './DarkMode';
 
 const Header = () => {
   return (
-    <div className='flex justify-between items-center mx-2 max-w-7xl sm:mx-auto'>
+    <div className='flex justify-between items-center my-6 mx-2 max-w-7xl sm:mx-auto'>
       <div className='flex items-center'>
         <MenuItem title='HOME' address='/' Icon={AiFillHome}/>
         <MenuItem title='ABOUT' address='/about' Icon={BsFillInfoCircleFill}/>
