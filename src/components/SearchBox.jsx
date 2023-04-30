@@ -10,6 +10,7 @@ export default function SearchBox() {
         e.preventDefault();
         if(!search) return;
        router.push(`/search/${search}`)
+       setSearch('')
     }
   return (
     <form onSubmit={handleSubmit} className='flex items-center max-w-7xl mx-auto justify-between px-5'>
