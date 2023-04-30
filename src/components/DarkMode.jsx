@@ -12,10 +12,6 @@ const DarkMode = () => {
   return (
     <>
     {mounted && (currentTheme === 'dark' ? <MdLightMode onClick={() => {setTheme('light')}}/> : <BsFillMoonFill onClick={() => {setTheme('dark')}} /> )}
-      
-    
-        {/* <button onClick={() => setTheme('light')}>Light Mode</button>
-      <button onClick={() => setTheme('dark')}>Dark Mode</button> */}
     </>
   )
 }
